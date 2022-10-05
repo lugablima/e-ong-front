@@ -1,5 +1,10 @@
-import React from "react"
+// import React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
 
-export const App = () => (
-  <h1>Olá</h1>
-)
+export function App() {
+  return (
+    <ChakraProvider resetCSS>
+      <h1>Olá</h1>
+    </ChakraProvider>
+  );
+}
