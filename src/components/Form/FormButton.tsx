@@ -11,6 +11,8 @@ export default function FormButton({ text, width, height }: Props) {
     <Button
       bg="tertiary"
       color="secondary"
+      fontWeight={400}
+      fontSize={16}
       w={width}
       h={height}
       boxShadow="lg"
