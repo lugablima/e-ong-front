@@ -1,15 +1,15 @@
 import axios, { AxiosResponse } from "axios";
 
-import { IUserData } from "../pages/SignInPage";
+import { ISignInUser } from "../pages/SignInPage";
 import { ISignUpUser } from "../pages/SignUpPage";
 import api from "./api";
 
-interface ISignInResponse {
+export interface ISignInResponse {
   userId: number;
   token: string;
 }
 
-export async function signInUserOrFail(userData: IUserData) {
+export async function signInUserOrFail(userData: ISignInUser) {
   try {
     const response: AxiosResponse<ISignInResponse> = await api.post(
       "/sign-in",

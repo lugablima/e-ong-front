@@ -1,5 +1,6 @@
 import { FormControl, Flex } from "@chakra-ui/react";
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
 
 import FormButton from "../components/Form/FormButton";
 import FormContainer from "../components/Form/FormContainer";
@@ -7,9 +8,10 @@ import FormInput from "../components/Form/FormInput";
 import FormLink from "../components/Form/FormLink";
 import Label from "../components/Form/Label";
 import OAuth from "../components/Form/OAuth";
+import { useUserContext, IUserContext } from "../context/UserContext";
 import { signInUserOrFail } from "../services/authService";
 
-export interface IUserData {
+export interface ISignInUser {
   email: string;
   password: string;
 }
@@ -17,18 +19,25 @@ export interface IUserData {
 export default function SignInPage() {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const { user, setUser } = useUserContext() as IUserContext;
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (user) navigate("/");
+  }, [user]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
-    const body: IUserData = {
+    const body: ISignInUser = {
       email,
       password,
     };
 
     try {
-      await signInUserOrFail(body);
+      const data = await signInUserOrFail(body);
 
+      setUser(data);
       setEmail("");
       setPassword("");
     } catch (error) {
