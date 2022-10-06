@@ -1,9 +1,3 @@
-import { Text } from "@chakra-ui/react";
-
 export default function HomePage() {
-  return (
-    <Text fontFamily="default" fontSize={100} fontWeight={700}>
-      Eu sou a hoem page!
-    </Text>
-  );
+  return <h1>Olá</h1>;
 }
