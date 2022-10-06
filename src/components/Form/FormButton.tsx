@@ -8,7 +8,14 @@ interface Props {
 
 export default function FormButton({ text, width, height }: Props) {
   return (
-    <Button bg="tertiary" color="secondary" w={width} h={height} boxShadow="lg">
+    <Button
+      bg="tertiary"
+      color="secondary"
+      w={width}
+      h={height}
+      boxShadow="lg"
+      type="submit"
+    >
       {text}
     </Button>
   );
