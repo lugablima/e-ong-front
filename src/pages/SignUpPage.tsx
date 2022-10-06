@@ -1,5 +1,6 @@
 import { FormControl, Flex, Box } from "@chakra-ui/react";
-import { useState, FormEvent } from "react";
+import { useState, useEffect, FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
 
 import FormButton from "../components/Form/FormButton";
 import FormContainer from "../components/Form/FormContainer";
@@ -7,7 +8,8 @@ import FormInput from "../components/Form/FormInput";
 import FormLink from "../components/Form/FormLink";
 import Label from "../components/Form/Label";
 import OAuth from "../components/Form/OAuth";
-import { signUpUserOrFail } from "../services/authService";
+import { useUserContext, IUserContext } from "../context/UserContext";
+import { signUpUserOrFail, signInUserOrFail } from "../services/authService";
 
 export interface ISignUpUser {
   name: string;
@@ -19,6 +21,12 @@ export default function SignUpPage() {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const navigate = useNavigate();
+  const { user, setUser } = useUserContext() as IUserContext;
+
+  useEffect(() => {
+    if (user) navigate("/");
+  }, [user]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -32,9 +40,12 @@ export default function SignUpPage() {
     try {
       await signUpUserOrFail(body);
 
+      const userData = await signInUserOrFail({ email, password });
+
       setName("");
       setEmail("");
       setPassword("");
+      setUser(userData);
     } catch (error) {
       alert(error);
     }
