@@ -5,12 +5,14 @@ import { MdLocalPhone } from "react-icons/md";
 
 import Bar from "./Bar";
 import IconComponent from "./IconComponent";
+import SideBarHeader from "./SideBarHeader";
 import Tab from "./Tab";
 import TextTab from "./TextTab";
 
 export default function SideBar() {
   return (
     <Bar>
+      <SideBarHeader />
       <Tab columnGap="26px">
         <IconComponent icon={IoHomeSharp} width="16px" height="16px" />
         <TextTab text="Home" />
