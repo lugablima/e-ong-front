@@ -1,9 +1,19 @@
-import { Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+
+import Card from "../components/Card/Card";
 
 export default function ChatPage() {
   return (
-    <Text fontFamily="default" fontSize={100} fontWeight={700}>
-      Eu sou a chat page!
-    </Text>
+    <Flex
+      direction="column"
+      justify="flex-start"
+      align="center"
+      rowGap="15px"
+      mt="146px"
+    >
+      <Card ongName="Nome da ONG" />
+      <Card ongName="Nome da ONG" />
+      <Card ongName="Nome da ONG" />
+    </Flex>
   );
 }

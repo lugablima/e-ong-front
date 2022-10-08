@@ -3,7 +3,28 @@ import { IoChevronForward } from "react-icons/io5";
 
 interface Props {
   ongName: string;
-  ongAddress: string;
+  ongAddress?: string;
+}
+
+function ChatCard() {
+  return (
+    <Flex align="center">
+      <Icon viewBox="0 0 200 200" color="green.500" mr="4px">
+        <path
+          fill="currentColor"
+          d="M 100, 100 m -75, 0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0"
+        />
+      </Icon>
+      <Text
+        fontFamily="default"
+        fontWeight={400}
+        fontSize="14px"
+        color="secondary"
+      >
+        Online
+      </Text>
+    </Flex>
+  );
 }
 
 export default function Card({ ongName, ongAddress }: Props) {
@@ -35,10 +56,14 @@ export default function Card({ ongName, ongAddress }: Props) {
           fontSize="14px"
           color="secondary"
         >
-          {ongAddress}
+          {ongAddress || <ChatCard />}
         </Text>
       </Flex>
       <Icon as={IoChevronForward} fontSize="36px" color="primary" />
     </Flex>
   );
 }
+
+Card.defaultProps = {
+  ongAddress: undefined,
+};
