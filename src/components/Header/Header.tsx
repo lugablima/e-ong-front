@@ -13,8 +13,8 @@ export default function Header() {
       columnGap="22px"
       borderBottom="2px solid rgba(0, 0, 0, 0.13)"
     >
-      <HeaderButton text="Fazer login" />
-      <HeaderButton text="Cadastre-se" />
+      <HeaderButton text="Fazer login" path="/sign-in" />
+      <HeaderButton text="Cadastre-se" path="/sign-up" />
     </Flex>
   );
 }
