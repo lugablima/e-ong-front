@@ -13,23 +13,23 @@ export default function SideBar() {
   return (
     <Bar>
       <SideBarHeader />
-      <Tab columnGap="26px">
+      <Tab columnGap="26px" path="/">
         <IconComponent icon={IoHomeSharp} width="16px" height="16px" />
         <TextTab text="Home" />
       </Tab>
-      <Tab columnGap="24px">
+      <Tab columnGap="24px" path="/ongs">
         <IconComponent icon={IoLocationSharp} width="18px" height="18px" />
         <TextTab text="ONGs perto de você" />
       </Tab>
-      <Tab columnGap="24px">
+      <Tab columnGap="24px" path="/chat">
         <IconComponent icon={IoMdChatboxes} width="18px" height="18px" />
         <TextTab text="Conversas" />
       </Tab>
-      <Tab columnGap="24px">
+      <Tab columnGap="24px" path="/phones">
         <IconComponent icon={MdLocalPhone} width="18px" height="18px" />
         <TextTab text="Números de emergência" />
       </Tab>
-      <Tab columnGap="22px">
+      <Tab columnGap="22px" path="/profile">
         <IconComponent icon={IoPersonCircle} width="20px" height="20px" />
         <TextTab text="Meu perfil" />
       </Tab>
