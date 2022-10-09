@@ -53,7 +53,7 @@ export default function SignInPage() {
         <Label label="Senha" />
         <FormInput
           type="password"
-          marginBottom={34}
+          marginBottom="34px"
           state={password}
           setState={setPassword}
           required

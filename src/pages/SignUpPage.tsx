@@ -61,7 +61,7 @@ export default function SignUpPage() {
         <Label label="Senha" />
         <FormInput
           type="password"
-          marginBottom={34}
+          marginBottom="34px"
           state={password}
           setState={setPassword}
           required
