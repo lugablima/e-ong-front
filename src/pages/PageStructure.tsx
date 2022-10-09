@@ -17,7 +17,7 @@ export default function PageStructure({ children }: Props) {
   return (
     <>
       {path !== "/sign-in" && path !== "/sign-up" && path !== "/sign-up/ong" ? (
-        <Flex w="100vw" h="100vh">
+        <Flex w="100vw" h="100vh" ml="240px">
           <SideBar />
           <Flex
             w="calc(100vw - 240px)"

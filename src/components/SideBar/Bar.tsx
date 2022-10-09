@@ -7,7 +7,15 @@ interface Props {
 
 export default function Bar({ children }: Props) {
   return (
-    <Box w={240} h="100vh" bg="tertiary">
+    <Box
+      w={240}
+      h="100vh"
+      bg="tertiary"
+      position="fixed"
+      top="0"
+      left="0"
+      zIndex="2"
+    >
       {children}
     </Box>
   );
