@@ -19,6 +19,10 @@ export default function HeaderButton({ text, path }: Props) {
       cursor="pointer"
       variant="solid"
       onClick={() => navigate(path)}
+      _hover={{
+        filter: "auto",
+        brightness: "90%",
+      }}
     >
       {text}
     </Button>
