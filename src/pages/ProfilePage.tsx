@@ -1,28 +1,55 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+
+import InfoBox from "../components/Infos/InfoBox";
+import InfoText from "../components/Infos/InfoText";
 
 export default function ProfilePage() {
   return (
     <Flex
+      w="355px"
+      h="calc(100vh - 56px)"
       direction="column"
       justify="flex-start"
       align="center"
-      rowGap="15px"
-      p="119px 0 67px"
-      overflowY="auto"
+      alignSelf="center"
+      p="146px 0 67px"
     >
-      <Text
-        fontFamily="default"
-        color="secondary"
-        fontWeight="600"
+      <InfoText
+        fontWeight={600}
         fontSize="30px"
-        textAlign="center"
-        mb="15px"
-      >
-        Perfil
-      </Text>
-      {/* <FormLabel>
-      Nome
-    </FormLabel>   */}
+        margin="0 0 30px"
+        text="Perfil"
+      />
+      <InfoText
+        fontWeight={700}
+        fontSize="18px"
+        textAlign="left"
+        margin="0 0 7px"
+        text="Nome"
+      />
+      <InfoBox height="50px" margin="0 0 25px">
+        <InfoText
+          fontWeight={600}
+          fontSize="20px"
+          margin="0"
+          text="Marie Antoniete"
+        />
+      </InfoBox>
+      <InfoText
+        fontWeight={700}
+        fontSize="18px"
+        textAlign="left"
+        margin="0 0 7px"
+        text="Email"
+      />
+      <InfoBox height="50px" margin="0 0 25px">
+        <InfoText
+          fontWeight={600}
+          fontSize="20px"
+          margin="0"
+          text="marieantoinette@gmail.com"
+        />
+      </InfoBox>
     </Flex>
   );
 }
