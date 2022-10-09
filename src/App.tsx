@@ -5,6 +5,7 @@ import { theme } from "./assets/theme";
 import UserProvider from "./context/UserContext";
 import ChatPage from "./pages/ChatPage";
 import HomePage from "./pages/HomePage";
+import OngPage from "./pages/OngPage";
 import OngsPage from "./pages/OngsPage";
 import PageStructure from "./pages/PageStructure";
 import PhonesPage from "./pages/PhonesPage";
@@ -25,6 +26,7 @@ export function App() {
               <Route path="/sign-up" element={<SignUpPage />} />
               <Route path="/sign-up/ong" element={<SignUpOngPage />} />
               <Route path="/ongs" element={<OngsPage />} />
+              <Route path="/ong" element={<OngPage />} />
               <Route path="/chat" element={<ChatPage />} />
               <Route path="/phones" element={<PhonesPage />} />
               <Route path="/profile" element={<ProfilePage />} />

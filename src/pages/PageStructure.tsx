@@ -19,7 +19,12 @@ export default function PageStructure({ children }: Props) {
       {path !== "/sign-in" && path !== "/sign-up" && path !== "/sign-up/ong" ? (
         <Flex w="100vw" h="100vh">
           <SideBar />
-          <Flex w="calc(100vw - 240px)" h="100%" direction="column">
+          <Flex
+            w="calc(100vw - 240px)"
+            h="100%"
+            direction="column"
+            overflowY="auto"
+          >
             <Header />
             {children}
           </Flex>
