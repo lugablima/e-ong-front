@@ -1,0 +1,2574 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.58.5 b0c4acbb",
+  "osm3s": {
+    "timestamp_osm_base": "2022-10-08T19:03:24Z",
+    "timestamp_areas_base": "2022-10-08T18:22:31Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 598724563,
+      "lat": -30.0427956,
+      "lon": -51.126249,
+      "tags": {
+        "name": "Associação de Moradores da Vila Tijuca",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1060328016,
+      "lat": -29.7713121,
+      "lon": -51.148102,
+      "tags": {
+        "alt_name": "Associação de Pais e Amigos dos Excepcionais",
+        "name": "APAE de São Leopoldo",
+        "office": "ngo",
+        "website": "http://saoleopoldo.apaebrasil.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1113784755,
+      "lat": -23.5515142,
+      "lon": -46.6340993,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "385",
+        "addr:postcode": "01001-000",
+        "addr:street": "Praça da Sé",
+        "name": "OAB Centro",
+        "office": "ngo",
+        "operator": "OAB-SP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1405891410,
+      "lat": -31.6404584,
+      "lon": -52.3331554,
+      "tags": {
+        "health_facility:type": "rehabilitation",
+        "name": "Pacto Pela Vida",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738490881,
+      "lat": -25.4155098,
+      "lon": -49.2907806,
+      "tags": {
+        "name": "Coordenação Nacional da Pastoral da Criança",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2148309962,
+      "lat": -30.050048,
+      "lon": -51.2268539,
+      "tags": {
+        "addr:housename": "Sala 2",
+        "addr:housenumber": "114",
+        "addr:postcode": "90130-020",
+        "addr:street": "Avenida Bastian",
+        "alt_name": "Associação Nacional dos Servidores da Justiça do Trabalho",
+        "email": "portoalegre@anajustra.org.br",
+        "name": "ANAJUSTRA",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+55 51 3232-1650",
+        "website": "https://www.anajustra.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2153926297,
+      "lat": -30.0281754,
+      "lon": -51.2200067,
+      "tags": {
+        "addr:housename": "13º andar",
+        "addr:housenumber": "665",
+        "addr:postcode": "90030-142",
+        "addr:street": "Avenida Alberto Bins",
+        "alt_name": "Federação do Comércio",
+        "email": "fecomercio@fecomercio-rs.org.br",
+        "name": "Fecomércio",
+        "office": "ngo",
+        "phone": "+55 51 3286-5677",
+        "website": "http://fecomercio-rs.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2153926298,
+      "lat": -30.0281283,
+      "lon": -51.2200105,
+      "tags": {
+        "addr:housename": "11º andar",
+        "addr:housenumber": "665",
+        "addr:postcode": "90030-142",
+        "addr:street": "Avenida Alberto Bins",
+        "alt_name": "Serviço Nacional de Aprendizagem Comercial - Administração Regional",
+        "amenity": "college",
+        "name": "SENAC Administração Regional",
+        "office": "ngo",
+        "phone": "+55 51 3284-1970",
+        "website": "http://portal.senacrs.com.br",
+        "wikidata": "Q2274352",
+        "wikipedia": "pt:Serviço Nacional de Aprendizagem Comercial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2429534617,
+      "lat": -30.0329103,
+      "lon": -51.2230052,
+      "tags": {
+        "addr:housenumber": "41",
+        "addr:street": "Avenida João Pessoa",
+        "amenity": "community_centre",
+        "email": "dce@ufrgs.br",
+        "name": "Diretório Central de Estudantes Sede Campus Centro",
+        "office": "ngo",
+        "official_name": "Diretório Central dos Estudantes da UFRGS",
+        "opening_hours": "Mo-Fr 09:00-21:00",
+        "phone": "+55 51 3316-4032",
+        "short_name": "DCE Sede Campus Centro",
+        "website": "https://dceufrgs.wordpress.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2514499767,
+      "lat": -30.0648707,
+      "lon": -51.2339202,
+      "tags": {
+        "amenity": "library",
+        "name": "FECI",
+        "office": "ngo",
+        "official_name": "Fundação de Educação e Cultura do Sport Club Internacional",
+        "wheelchair": "limited",
+        "wikidata": "Q10279025",
+        "wikipedia": "pt:FECI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2535465589,
+      "lat": -22.7332376,
+      "lon": -47.6046395,
+      "tags": {
+        "addr:city": "Piracicaba",
+        "addr:housenumber": "185",
+        "addr:postcode": "13426-420",
+        "addr:street": "Rua Chico Mendes",
+        "addr:suburb": "Sertãozinho",
+        "name": "IMAFLORA",
+        "office": "ngo",
+        "opening_hours": "08:00-18:00",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2579649348,
+      "lat": -16.0063896,
+      "lon": -48.082119,
+      "tags": {
+        "building": "civic",
+        "name": "Casa do Menino Jesus",
+        "office": "ngo",
+        "website": "https://www.casameninojesus.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2581152126,
+      "lat": -12.9156828,
+      "lon": -38.4443526,
+      "tags": {
+        "name": "Mansão do caminho",
+        "note": "Adicionada ong",
+        "office": "ngo",
+        "opening_hours": "09:00-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2653277273,
+      "lat": -1.4754465,
+      "lon": -48.4529062,
+      "tags": {
+        "addr:city": "Belém",
+        "addr:postcode": "66075-900",
+        "level": "0",
+        "name": "Centro Acadêmico de Arquitetura e Urbanismo",
+        "office": "ngo",
+        "phone": "+55 91 3201-7301",
+        "source": "http://caauufpa.org/",
+        "website": "http://caauufpa.org/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2656210686,
+      "lat": -3.7425576,
+      "lon": -38.5376721,
+      "tags": {
+        "addr:city": "Fortaleza",
+        "addr:housenumber": "50",
+        "addr:postcode": "60020-110",
+        "addr:street": "Rua Waldery Uchôa",
+        "name": "Sindicato dos Trabalhadores da UFC",
+        "office": "ngo",
+        "short_name": "SINTUFCe",
+        "website": "http://www.sintufce.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2675121707,
+      "lat": -23.5486789,
+      "lon": -46.6405764,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housename": "8o. andar",
+        "addr:housenumber": "118",
+        "addr:postcode": "01050-020",
+        "addr:street": "Rua João Adolfo",
+        "name": "Article 19",
+        "office": "ngo",
+        "website": "https://www.article19.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2684581151,
+      "lat": -7.1050086,
+      "lon": -35.8666916,
+      "tags": {
+        "name": "Sindicato dos Trabalhadores Rurais",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2859371593,
+      "lat": -19.817587,
+      "lon": -40.2711077,
+      "tags": {
+        "name": "APAE",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2893877055,
+      "lat": -23.6533871,
+      "lon": -46.4417313,
+      "tags": {
+        "name": "Associação Estrela Azul",
+        "office": "ngo",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2895363701,
+      "lat": -30.0752058,
+      "lon": -51.2419386,
+      "tags": {
+        "addr:housenumber": "97",
+        "addr:postcode": "90810-180",
+        "addr:street": "Rua Taquari",
+        "email": "abdpc@abdpc.org.br",
+        "name": "Academia Brasileira de Direito Processual Civil",
+        "office": "ngo",
+        "phone": "+55 51 3028-7912",
+        "website": "http://www.abdpc.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2922189401,
+      "lat": -24.0990729,
+      "lon": -48.3644028,
+      "tags": {
+        "addr:housenumber": "134",
+        "addr:postcode": "18315000",
+        "addr:street": "Rua Ermenegildo de Lima",
+        "contact:email": "comunicacao@portalideas.org.br",
+        "contact:phone": "1535441205",
+        "name": "IDEAS",
+        "office": "ngo",
+        "official_name": "Instituto de Desenvolvimento Ambiental Sustentável",
+        "website": "http://portalideas.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2934463204,
+      "lat": -23.536099,
+      "lon": -46.5871781,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "2593",
+        "addr:postcode": "03063-000",
+        "addr:street": "Avenida Celso Garcia",
+        "name": "Fundação Casa",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2937453168,
+      "lat": -22.8389034,
+      "lon": -47.1911769,
+      "tags": {
+        "addr:city": "Sumaré",
+        "name": "Espaço Publico Eminarista Ricardo Cardoso",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2950206195,
+      "lat": -20.7654009,
+      "lon": -42.8867641,
+      "tags": {
+        "name": "APAE",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2962076938,
+      "lat": -20.7524771,
+      "lon": -42.8849143,
+      "tags": {
+        "name": "Lar dos Velhinhos",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3235646025,
+      "lat": -22.9010312,
+      "lon": -43.1813068,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "135",
+        "addr:postcode": "20090-080",
+        "addr:street": "Rua Teófilo Otoni",
+        "addr:suburb": "Centro",
+        "email": "disvastigo.aerj@gmail.com",
+        "esperanto": "yes",
+        "language:eo": "yes",
+        "name": "Associação Esperantista do Rio de Janeiro",
+        "name:eo": "Asocio Esperantista de Rio-de-Ĵaneiro",
+        "note": "Grupo 302",
+        "office": "ngo",
+        "phone": "+55 21 2467 4296",
+        "training": "language",
+        "website": "https://www.aerj.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3285059061,
+      "lat": -29.6826776,
+      "lon": -53.8053801,
+      "tags": {
+        "name": "Círculo Operário de Santa Maria",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3307961250,
+      "lat": -23.6150817,
+      "lon": -46.7203223,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:street": "Rua Itapanhau",
+        "addr:suburb": "Paraisópolis",
+        "name": "Creche Sta Escolastica",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3307961252,
+      "lat": -23.6139733,
+      "lon": -46.7219395,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "15",
+        "addr:street": "Rua Manoel Antônio Pinto",
+        "addr:suburb": "Paraisópolis",
+        "name": "ONG Florescer",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3404366089,
+      "lat": -23.5507489,
+      "lon": -46.6197227,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "575",
+        "addr:postcode": "03041-000",
+        "addr:street": "Rua Caetano Pinto",
+        "name": "Central Única dos Trabalhadores",
+        "office": "ngo",
+        "phone": "+55 11 2108-9200",
+        "short_name": "CUT",
+        "website": "https://www.cut.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3522248277,
+      "lat": -23.5260747,
+      "lon": -46.6349059,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "863",
+        "addr:postcode": "01121-000",
+        "addr:street": "Rua Prates",
+        "name": "Unibes",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3611843665,
+      "lat": -22.8982197,
+      "lon": -47.0593442,
+      "tags": {
+        "addr:city": "Campinas",
+        "addr:housenumber": "1779",
+        "addr:postcode": "13015-122",
+        "addr:street": "Rua Luzitana",
+        "addr:suburb": "Centro",
+        "contact:facebook": "https://www.facebook.com/cdicampinas",
+        "contact:twitter": "https://twitter.com/cdicampinas",
+        "email": "contato@minhacampinas.org.br",
+        "name": "Minha Campinas",
+        "office": "ngo",
+        "official_name": "Comitê para Democratização da Informática",
+        "phone": "+55 19 9 9622-9310",
+        "website": "https://www.minhacampinas.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3717569762,
+      "lat": -13.0041484,
+      "lon": -38.531848,
+      "tags": {
+        "name": "Apresul",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3798870730,
+      "lat": -30.2082129,
+      "lon": -51.1754113,
+      "tags": {
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "638",
+        "addr:street": "Avenida Inácio Antônio da Silva",
+        "addr:suburb": "belem novo",
+        "name": "Clube Xavantes",
+        "office": "ngo",
+        "phone": "+55 51 3261-3559"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3872099452,
+      "lat": -22.9758854,
+      "lon": -47.1736957,
+      "tags": {
+        "addr:city": "Campinas",
+        "addr:housenumber": "42",
+        "addr:postcode": "13057541",
+        "addr:street": "Rua Daniel de Godói Pereira",
+        "addr:suburb": "Conjunto Habitacional Vida Nova",
+        "name": "Obra Social São João Bosco - Núcleo Dom Bosco",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 07:45-17:00",
+        "website": "http://ossjb.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3872281976,
+      "lat": -14.0587248,
+      "lon": -42.4835299,
+      "tags": {
+        "addr:city": "Caetité",
+        "addr:housenumber": "444",
+        "addr:postcode": "46400-000",
+        "addr:street": "Avenida Luís Gomes",
+        "addr:suburb": "Ovídio Teixiera",
+        "name": "Associação dos moradores",
+        "office": "ngo",
+        "survey:date": "2015-12-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3884267252,
+      "lat": -14.0645704,
+      "lon": -42.4937551,
+      "tags": {
+        "addr:city": "Caetité",
+        "addr:postcode": "46400-000",
+        "addr:street": "Avenida Prefeito Dácio Oliveira",
+        "addr:suburb": "Chácara",
+        "name": "Projeto \"Mulheres Camponesas Preservando as Sementes, Construindo Soberania Alimentar\"",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3889061862,
+      "lat": -22.9074906,
+      "lon": -43.1929837,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "86",
+        "addr:postcode": "20230-210",
+        "addr:street": "Rua Frederico Silva",
+        "addr:suburb": "Centro",
+        "email": "contato@riocriativo.com",
+        "level": "5;6;7",
+        "name": "Rio Criativo",
+        "office": "ngo",
+        "phone": "+55 2125079742",
+        "website": "http://www.riocriativo.rj.gov.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3926151796,
+      "lat": -10.8045809,
+      "lon": -55.4564321,
+      "tags": {
+        "name": "OAB de Colíder",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3944952094,
+      "lat": -1.4583092,
+      "lon": -48.4514532,
+      "tags": {
+        "amenity": "social_centre",
+        "description": "profesisonal",
+        "name": "Cooperativa dos Catadores de Material Reciclável \"CONCAVES\"",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3955347839,
+      "lat": -26.9177025,
+      "lon": -49.0678588,
+      "tags": {
+        "level": "1",
+        "name": "Instituto Brasileiro Design de Interiores",
+        "office": "ngo",
+        "short_name": "ibdi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3956712927,
+      "lat": -23.6550253,
+      "lon": -46.6451518,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "222",
+        "addr:street": "Rua das Guassatungas",
+        "addr:suburb": "Vila Campestre",
+        "name": "Centro Educacional e Tecnológico Casa do Caminho",
+        "office": "ngo",
+        "opening_hours": "08:00-17:00",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4045246702,
+      "lat": -3.536104,
+      "lon": -40.4594336,
+      "tags": {
+        "name": "Associação Beneficiente e Cultural Comunitária",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4064085397,
+      "lat": -15.800929,
+      "lon": -47.9144716,
+      "tags": {
+        "addr:street": "Estacionamento 3",
+        "description": "Sede do Grupo Escoteiro Jose de Anchieta , 11º DF. Atividades todos os sabados de 14:30 as 18:00.",
+        "name": "GEJA - Grupo Escoteiro José de Anchieta",
+        "office": "ngo",
+        "opening_hours": "Sa 14:30-18:00",
+        "website": "http://www.geja.blog.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4085828500,
+      "lat": -30.0601325,
+      "lon": -51.1699537,
+      "tags": {
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "6681",
+        "addr:place": "TECNOPUC - Prédio 93A - sala 105",
+        "addr:postcode": "90619-900",
+        "addr:street": "Av. Ipiranga",
+        "addr:suburb": "Partenon",
+        "description": "Organizador do Fórum Internacional Software Livre - http://softwarelivre.org/",
+        "email": "asl@asl.org.br",
+        "name": "Associação Software Livre.Org",
+        "office": "ngo",
+        "phone": "+55 51 3228-0100",
+        "short_name": "ASL.Org",
+        "website": "http://softwarelivre.org/asl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4255362793,
+      "lat": -26.9506875,
+      "lon": -49.1311114,
+      "tags": {
+        "addr:housenumber": "209",
+        "addr:street": "Rua Paul Hermann Rosenwasser",
+        "amenity": "social_facility",
+        "contact:email": "casadeacolhida@saofelipeneri.com.br",
+        "contact:phone": "+55 47 3325-5783",
+        "contact:website": "http://www.saofelipeneri.com.br/",
+        "name": "Casa de Acolhida São Felipe Neri",
+        "office": "ngo",
+        "social_facility": "daycare",
+        "social_facility:for": "child"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4301363791,
+      "lat": -26.2650033,
+      "lon": -48.8498129,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "185",
+        "addr:postcode": "89222-590",
+        "addr:street": "Rua José Gerard Rollin Filho",
+        "addr:suburb": "Bom Retiro",
+        "alt_name": "Associação de Amigos do Autista",
+        "email": "contato@amajoinville.org",
+        "name": "AMA",
+        "office": "ngo",
+        "phone": "+55 47 3425-5649",
+        "website": "https://www.amajoinville.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4380827471,
+      "lat": -0.032273,
+      "lon": -51.0828936,
+      "tags": {
+        "addr:street": "Rodovia Juscelino Kubistchek",
+        "name": "asfunsap",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4404648270,
+      "lat": -23.0015163,
+      "lon": -43.6361567,
+      "tags": {
+        "addr:housenumber": "1.025",
+        "addr:postcode": "23027-260",
+        "addr:street": "Rua Belchior da Fonseca",
+        "addr:suburb": "Pedra de Guaratiba",
+        "name": "Fundação Xuxa Meneghel",
+        "office": "ngo",
+        "phone": "21 2417 1925",
+        "website": "http://www.fundacaoxuxameneghel.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4408605017,
+      "lat": -30.1510492,
+      "lon": -51.1385973,
+      "tags": {
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "952",
+        "addr:postcode": "91790-020",
+        "addr:street": "Rua Doutor Carlos Niederauer Hofmeister",
+        "addr:suburb": "Restinga",
+        "name": "Associação de Mães Rita Yasmin",
+        "office": "ngo",
+        "phone": "+55 51 3277-4129",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4431124364,
+      "lat": -23.5658781,
+      "lon": -46.684534,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "50",
+        "addr:postcode": "05416-000",
+        "addr:street": "Rua Fradique Coutinho",
+        "name": "Centro de Inovação para a Educação Brasileira (CIEB)",
+        "office": "ngo",
+        "smoking": "no",
+        "website": "http://www.cieb.net.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4436349106,
+      "lat": -22.9200861,
+      "lon": -43.2265887,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "103",
+        "addr:postcode": "20550-040",
+        "addr:street": "Rua Almirante Cóchrane",
+        "name": "Enxerga Sua Fé",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4442156366,
+      "lat": -27.114993,
+      "lon": -52.6267091,
+      "tags": {
+        "addr:housenumber": "250",
+        "addr:street": "Rua Piauí",
+        "name": "SOS Terra",
+        "office": "ngo",
+        "website": "http://www.artesosterra.com.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4442439850,
+      "lat": -27.4729862,
+      "lon": -49.8067718,
+      "tags": {
+        "contact:email": "viveiro@apremavi.org.br",
+        "contact:phone": "+55 47 3535-0119",
+        "contact:website": "http://www.apremavi.org.br/",
+        "name": "Associação de Preservação do Meio Ambiente do Alto Vale do Itajaí",
+        "office": "ngo",
+        "short_name": "Apremavi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4470316577,
+      "lat": -3.779453,
+      "lon": -38.5603543,
+      "tags": {
+        "addr:city": "Fortaleza",
+        "addr:housenumber": "565",
+        "addr:street": "Avenida Doutor Silas Munguba",
+        "addr:suburb": "Parangaba",
+        "name": "Desafio Jovem do Ceará",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4470658860,
+      "lat": -3.774968,
+      "lon": -38.5727036,
+      "tags": {
+        "addr:city": "Fortaleza",
+        "addr:housenumber": "217",
+        "addr:street": "Rua Monsenhor Salviano",
+        "addr:suburb": "Parangaba",
+        "name": "Casa da Tia Julia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4486204680,
+      "lat": -3.7591233,
+      "lon": -38.5419259,
+      "tags": {
+        "addr:city": "Fortaleza",
+        "addr:housenumber": "465",
+        "addr:street": "Rua Padre João Piamarta",
+        "addr:suburb": "Montese",
+        "name": "Casa de Nazaré",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4514035062,
+      "lat": -14.2366877,
+      "lon": -42.7766611,
+      "tags": {
+        "addr:city": "Guanambi",
+        "addr:housenumber": "829",
+        "addr:postcode": "46430-000",
+        "addr:street": "Avenida Deolinda Martins",
+        "addr:suburb": "Santo Antônio",
+        "name": "Sindicato dos Agricultores Familiares e Empreendedores Rurais de Guanambi",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4528328130,
+      "lat": -23.2187757,
+      "lon": -44.7122326,
+      "tags": {
+        "addr:housenumber": "12",
+        "amenity": "arts_centre",
+        "name": "Instituto Silo Cultural",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4558867916,
+      "lat": -26.2841934,
+      "lon": -48.8553582,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "684",
+        "addr:postcode": "89204-360",
+        "addr:street": "Rua Benjamin Constant",
+        "addr:suburb": "América",
+        "name": "Associação Santa Luíza de Marillac",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4564260066,
+      "lat": -26.3019342,
+      "lon": -48.8443595,
+      "tags": {
+        "email": "joinville@esf-brasil.org",
+        "name": "Engenheiros Sem Fronteiras - Núcleo Joinville",
+        "office": "ngo",
+        "website": "https://joinville.esf.org.br/faca-parte"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4564262104,
+      "lat": -26.3023896,
+      "lon": -48.8495475,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "166",
+        "addr:postcode": "89201-420",
+        "addr:street": "Rua Visconde de Taunay",
+        "addr:suburb": "Centro",
+        "alt_name": "OSB Joinville",
+        "name": "Observatório Social do Brasil -  OSB",
+        "office": "ngo",
+        "phone": "+55 47 3013 0774",
+        "website": "http://www.osbjoinville.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4567074662,
+      "lat": -23.6006246,
+      "lon": -46.4830799,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "1343",
+        "addr:postcode": "03958-010",
+        "addr:street": "Rua Antônio Previato",
+        "description": "Atendimento: 120 adolescentes, na faixa etária de15 a 29 anos em atividades de curso profissionalizante Assistente Administrativo, Cabeleireiro e Web Design.",
+        "name": "Cedesp São Lucas",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 07:30-16:30",
+        "phone": "+55 11 2015-5773",
+        "source": "web site",
+        "website": "http://www.obrasocialsaomateus.org.br/index.php/what-we-do/item/83-cedesp"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4589468606,
+      "lat": -14.4082789,
+      "lon": -42.6379393,
+      "tags": {
+        "name": "Associação dos Produtores de Lapa e Vargem",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4614553645,
+      "lat": -23.5379713,
+      "lon": -46.6077832,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "427",
+        "addr:postcode": "03017-010",
+        "addr:street": "Rua Doutor Carlos Botelho",
+        "name": "Projeto Ler e Escrever",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4622710858,
+      "lat": -22.5800415,
+      "lon": -47.399644,
+      "tags": {
+        "addr:street": "Rua Benedito Kuhl",
+        "name": "Casa de Apoio Betânia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4666302475,
+      "lat": -18.8709318,
+      "lon": -41.1247869,
+      "tags": {
+        "name": "Projeto Vida Feliz",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4670380244,
+      "lat": -18.8632649,
+      "lon": -41.1215504,
+      "tags": {
+        "name": "APAE de Mantenópolis",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4673449874,
+      "lat": -18.8611226,
+      "lon": -41.1213519,
+      "tags": {
+        "name": "Câmara dos Lojista de Mantenópolis",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4673879961,
+      "lat": -18.8631985,
+      "lon": -41.1228582,
+      "tags": {
+        "name": "Sindicato Patronal de Mantenópolis",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4681909789,
+      "lat": -17.734329,
+      "lon": -39.265219,
+      "tags": {
+        "name": "Instituto da Baleia Jubarte",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4715761273,
+      "lat": -22.8863396,
+      "lon": -46.9439626,
+      "tags": {
+        "addr:city": "Campinas",
+        "addr:housenumber": "1085",
+        "addr:postcode": "13108002",
+        "addr:street": "Estrada Joaquim Egídio",
+        "addr:suburb": "Joaquim Egídio",
+        "name": "ASSUMA Sustentabilidade",
+        "office": "ngo",
+        "smoking": "no",
+        "website": "http://assumasustentabilidade.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4773426705,
+      "lat": -23.5299137,
+      "lon": -46.6508955,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "1400",
+        "addr:street": "Alameda Barão de Limeira",
+        "addr:suburb": "Campos Elíseos",
+        "name": "Fundação Lauro Campos",
+        "office": "ngo",
+        "website": "http://www.laurocampos.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4779274809,
+      "lat": -30.0245957,
+      "lon": -51.2227639,
+      "tags": {
+        "addr:floor": "15",
+        "addr:housenumber": "440",
+        "addr:postcode": "90030-130",
+        "addr:street": "Avenida Júlio de Castilhos",
+        "email": "sac@sindiatacadistas.com.br",
+        "name": "Sindiatacadistas",
+        "office": "ngo",
+        "phone": "+55 51 3214-7400",
+        "website": "http://www.sindiatacadistas.com.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4789258725,
+      "lat": -22.8638836,
+      "lon": -47.2155816,
+      "tags": {
+        "government": "register_office",
+        "name": "Cartório de Notas de Hortolãndia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4801674531,
+      "lat": -30.031431,
+      "lon": -51.2370251,
+      "tags": {
+        "addr:housenumber": "320",
+        "addr:postcode": "90010-190",
+        "addr:street": "Rua 7 de Setembro",
+        "fax": "+55 51 3225-0266",
+        "name": "Poupex",
+        "office": "ngo",
+        "phone": "+55 51 3225-0268",
+        "shop": "yes",
+        "website": "https://www.poupex.com.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4870250622,
+      "lat": -23.5415033,
+      "lon": -46.612152,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "125",
+        "addr:postcode": "03051-000",
+        "addr:street": "Rua do Hipódromo",
+        "name": "Associação Cristã Beneficiente dos Coreanos na América Sul",
+        "office": "ngo",
+        "phone": "+55 11 2291-0779"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4893953621,
+      "lat": -23.5564463,
+      "lon": -46.6625305,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "2433",
+        "addr:postcode": "01311-300",
+        "addr:street": "Avenida Paulista",
+        "name": "Instituto Cervantes",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4929624185,
+      "lat": -26.82254,
+      "lon": -49.1614969,
+      "tags": {
+        "contact:email": "pomerode@peal.org.br",
+        "contact:phone": "+55 47 3387-0044;+55 47 99227-2167",
+        "name": "Peal Programa Espaço Alternativo",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4931540441,
+      "lat": -22.4631546,
+      "lon": -44.4583417,
+      "tags": {
+        "name": "Sede do parque",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4968654247,
+      "lat": -21.6214036,
+      "lon": -49.801219,
+      "tags": {
+        "name": "Rotary Club",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001902642,
+      "lat": -21.9886682,
+      "lon": -47.9245265,
+      "tags": {
+        "addr:housenumber": "49",
+        "addr:postcode": "13563-485",
+        "addr:street": "Rua Ítalo Savelli",
+        "email": "missão.emanuel@msn.com",
+        "name": "Missão Emanuel de Assistência a Vida",
+        "name:es": "Misión Emanuel de Asistencia a Vida",
+        "name:pt": "Missão Emanuel de Assistência a Vida",
+        "office": "ngo",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "+55 16 3201-2954"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5017083179,
+      "lat": -21.178223,
+      "lon": -47.8118965,
+      "tags": {
+        "name": "Sincovarp",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5032329064,
+      "lat": -27.8090903,
+      "lon": -50.3189734,
+      "tags": {
+        "name": "Paternidade Responsável",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5102933333,
+      "lat": -22.7214192,
+      "lon": -47.6503536,
+      "tags": {
+        "addr:city": "Piracicaba",
+        "addr:housenumber": "484",
+        "addr:street": "Rua Treze de Maio",
+        "name": "Instituto Terra Mater",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5122761128,
+      "lat": -12.9973452,
+      "lon": -38.526212,
+      "tags": {
+        "name": "Coordenadoria Ecumênica de Serviço",
+        "office": "ngo",
+        "phone": "+55 7121015457",
+        "short_name": "CESE",
+        "website": "https://www.cese.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5161120834,
+      "lat": -22.9136679,
+      "lon": -43.1797928,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "39",
+        "addr:postcode": "20230-150",
+        "addr:street": "Avenida Mem de Sá",
+        "addr:suburb": "Lapa",
+        "email": "ipdh.br@gmail.com",
+        "name": "Casa Brasil-Nigéria de Cultura Afro-brasileira - Sede do Instituto Palmares de Direitos Humanos (IPDH)",
+        "office": "ngo",
+        "phone": "+55 (21) 2221-9313",
+        "website": "http://ipdh.blogspot.com.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5207320874,
+      "lat": -23.0101693,
+      "lon": -43.3642501,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "6420",
+        "addr:street": "Rua Ruy Porto",
+        "addr:suburb": "Barra da Tijuca",
+        "name": "Proteste",
+        "office": "ngo",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q10343315",
+        "wikipedia": "pt:Proteste"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5215138812,
+      "lat": -23.0498301,
+      "lon": -47.8352139,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "107",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Conselheiro Antônio Prado",
+        "addr:suburb": "Centro",
+        "description": "Oferece atendimento e vários serviços e cursos ao produtor rural.",
+        "image": "File:Sindicato rural de Laranjal Paulista.jpg",
+        "name": "Sindicato Rural de Laranjal Paulista",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-17:30; PH off",
+        "phone": "+55 15 3283 1368",
+        "start_date": "1967-01-30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5233563565,
+      "lat": -26.9102217,
+      "lon": -49.0760095,
+      "tags": {
+        "name": "Associação Blumenauense Amigos dos Deficientes Auditivos",
+        "office": "ngo",
+        "short_name": "Abada"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363592401,
+      "lat": -23.0433882,
+      "lon": -47.8332984,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "120",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Agenor Gazonato",
+        "addr:suburb": "Jardim Europa",
+        "description": "Subsede Laranjal Paulista.",
+        "name": "Siticocimocir",
+        "office": "ngo",
+        "official_name": "Sindicato dos Trabalhadores nas Indústrias da Construção Civil, do Mobiliário e de Cerâmicas de Itu e Região",
+        "phone": "+55 15 3283-3103",
+        "website": "http://www.siticocimocir.com.br/site/base-territorial/sub-sedes/laranjal-paulista"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363681438,
+      "lat": -23.0463947,
+      "lon": -47.8354569,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "375",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Barão do Rio Branco",
+        "addr:suburb": "Centro",
+        "description": "Subsede Laranjal Paulista.",
+        "name": "Sindbrinq",
+        "office": "ngo",
+        "official_name": "Sindicato dos Trabalhadores nas Indústrias de Instrumentos Musicais e de Brinquedos do Estado de São Paulo",
+        "phone": "+55 15 3283 5839",
+        "website": "https://www.sindbrinq.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5363747920,
+      "lat": -23.047733,
+      "lon": -47.8364108,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "19",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua General Osório",
+        "addr:suburb": "Centro",
+        "name": "Sindicato dos Metalúrgicos de Laranjal Paulista e Região",
+        "office": "ngo",
+        "phone": "+55 15 3283-1118"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5384170279,
+      "lat": -23.0434474,
+      "lon": -47.8344759,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "48",
+        "addr:postcode": "18500-000",
+        "addr:street": "Avenida Cesário Carlos de Almeida",
+        "addr:suburb": "Bairro São Benedito",
+        "description": "Subsede Laranjal Paulista.",
+        "name": "Associação dos Ferroviários do Estado de São Paulo",
+        "office": "ngo",
+        "phone": "+55 15 3283-1153",
+        "short_name": "AFESP Laranjal Paulista"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5384264272,
+      "lat": -23.0520994,
+      "lon": -47.838325,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "50",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Suaidan Abud",
+        "addr:suburb": "Centro",
+        "description": "Sede social.",
+        "name": "Associação dos Servidores Municipais de Laranjal Paulista",
+        "office": "ngo",
+        "phone": "+55 15 3283-2539",
+        "short_name": "Sede da ASMULP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5415531021,
+      "lat": -24.0553256,
+      "lon": -52.3776427,
+      "tags": {
+        "name": "Sede Cachorroes do Asfalto Motoclube",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5445977122,
+      "lat": -21.5121648,
+      "lon": -56.0883546,
+      "tags": {
+        "name": "Presidente da Associação GuiaLopes",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5489962226,
+      "lat": -23.0508819,
+      "lon": -47.8334111,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "120",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Antonio Pasquotto",
+        "addr:suburb": "Vila Conceição",
+        "description": "Coordenadoria de Cerquilho.",
+        "name": "Sindicato Sorocabana",
+        "office": "ngo",
+        "phone": "+55 15 3284-1457",
+        "short_name": "S.T.E.F.Z.S."
+      }
+    },
+    {
+      "type": "node",
+      "id": 5550952879,
+      "lat": -28.2071284,
+      "lon": -49.5755732,
+      "tags": {
+        "name": "Segualquia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5553018078,
+      "lat": -5.1080769,
+      "lon": -42.7920522,
+      "tags": {
+        "addr:city": "Teresina",
+        "addr:housenumber": "1616",
+        "addr:street": "Rua Equador",
+        "addr:suburb": "Cidade Nova",
+        "name": "Associção Missão PróSERTÃO",
+        "office": "ngo",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5609727999,
+      "lat": -23.6635084,
+      "lon": -46.5392259,
+      "tags": {
+        "name": "Instituto Acqua",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5631484265,
+      "lat": -26.9189741,
+      "lon": -49.0675921,
+      "tags": {
+        "contact:fax": "+55 47 3326-1126",
+        "contact:phone": "+55 47 3326-6399",
+        "contact:website": "http://www.secblumenau.com.br/",
+        "name": "Sindicato dos Comerciários",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5633919287,
+      "lat": -22.7489947,
+      "lon": -43.6916047,
+      "tags": {
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5644706560,
+      "lat": -26.9050841,
+      "lon": -49.0866787,
+      "tags": {
+        "name": "Narcóticos Anônimos",
+        "office": "ngo",
+        "opening_hours": "Mo,We,Fr 19:30-21:30",
+        "short_name": "NA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5644706561,
+      "lat": -26.9051002,
+      "lon": -49.0867008,
+      "tags": {
+        "name": "Alcoólicos Anônimos",
+        "office": "ngo",
+        "opening_hours": "Su,Tu,Th 19:30-21:30",
+        "short_name": "AA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5662355516,
+      "lat": -1.4401128,
+      "lon": -48.4883134,
+      "tags": {
+        "addr:city": "Belém",
+        "addr:country": "BR",
+        "addr:housenumber": "500",
+        "addr:postcode": "66055-190",
+        "addr:state": "PA",
+        "addr:street": "Travessa Dom Romualdo Coelho",
+        "addr:suburb": "Umarizal",
+        "name": "Unicef",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5694074242,
+      "lat": -25.4233876,
+      "lon": -49.213323,
+      "tags": {
+        "addr:street": "Rua Paulo Turkiewicz",
+        "name": "AFECE",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5695820706,
+      "lat": -28.6282408,
+      "lon": -53.0898643,
+      "tags": {
+        "name": "Sindicato Rural",
+        "office": "ngo",
+        "source": "IBGE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5697923734,
+      "lat": -29.0747147,
+      "lon": -53.8408193,
+      "tags": {
+        "amenity": "social_centre",
+        "name": "Sindicato Rural",
+        "office": "ngo",
+        "source": "IBGE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5744553668,
+      "lat": -26.9156527,
+      "lon": -49.0816724,
+      "tags": {
+        "contact:phone": "+55 47 3322-2604",
+        "name": "Associação dos Diabéticos do Vale do Itajaí",
+        "office": "ngo",
+        "short_name": "Advali"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5836541912,
+      "lat": -13.8983337,
+      "lon": -39.4597447,
+      "tags": {
+        "description": "A Organização de Conservação da Terra (OCT) trabalha no Planejamento da Paisagem, visando ser propositiva em um modelo de desenvolvimento que possa gerar sustentabilidade.\n\nDesde 2001 a instituição acumula um consistente portfólio de experiências.",
+        "name": "Organização de Conservação de Terras do Baixo Sul da Bahia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6031255493,
+      "lat": -3.0919009,
+      "lon": -59.9634099,
+      "tags": {
+        "addr:city": "Manaus",
+        "addr:housenumber": "s/n",
+        "addr:street": "Avenida Roberto Vieira",
+        "addr:suburb": "Coroado",
+        "level": "1",
+        "name": "Centro Acadêmico de Administração - CAADM",
+        "office": "ngo",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6096434833,
+      "lat": -27.0478814,
+      "lon": -49.619074,
+      "tags": {
+        "name": "APAE",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6236570985,
+      "lat": -15.7660933,
+      "lon": -47.8774656,
+      "tags": {
+        "name": "CRB-1",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259383808,
+      "lat": -16.3525352,
+      "lon": -48.9786682,
+      "tags": {
+        "addr:housenumber": "Quadra 08 Lote 12",
+        "addr:street": "Rua 03",
+        "description": "Instituição de apoio a pacientes com Hanseníase.",
+        "name": "MORHAN - Unidade J.P.R",
+        "office": "ngo",
+        "phone": "+55 62 3098 6350"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6325915785,
+      "lat": -19.9613373,
+      "lon": -44.0691715,
+      "tags": {
+        "name": "SAE Towers",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6356212738,
+      "lat": -30.0340409,
+      "lon": -51.2247552,
+      "tags": {
+        "addr:housenumber": "216",
+        "addr:street": "Avenida Desembargador André da Rocha",
+        "name": "UMESPA",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6367662846,
+      "lat": -7.0756669,
+      "lon": -40.3856267,
+      "tags": {
+        "addr:city": "Campos Sales",
+        "addr:postcode": "63150000",
+        "addr:suburb": "Guarani",
+        "name": "Associação Comunitária do Guarani",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6380784287,
+      "lat": -29.2371636,
+      "lon": -51.1666693,
+      "tags": {
+        "name": "YWAM/JOCUM Caxias do Sul",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6390605270,
+      "lat": -12.9298732,
+      "lon": -38.4311653,
+      "tags": {
+        "addr:city": "Salvador",
+        "addr:housenumber": "210",
+        "addr:postcode": "41250-010",
+        "addr:street": "Avenida Oceano Pacífico",
+        "addr:suburb": "São Marcos",
+        "name": "Grupo de apoio à criança com câncer - Unidade Bahia",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "short_name": "GACC-BA",
+        "website": "http://www.gaccbahia.org.br/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6393719773,
+      "lat": -23.5586607,
+      "lon": -46.5671776,
+      "tags": {
+        "name": "Lar Mãe do Divino Amor",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 07:30-17:30"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6396941758,
+      "lat": -5.7505154,
+      "lon": -35.2041492,
+      "tags": {
+        "addr:city": "Natal",
+        "addr:housenumber": "254",
+        "addr:postcode": "59122-031",
+        "addr:street": "Rua Engenheiro Clóvis Aragão",
+        "addr:suburb": "Redinha",
+        "name": "Amigos da Praia",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6597313166,
+      "lat": -5.0885204,
+      "lon": -42.818784,
+      "tags": {
+        "description": "Sindicato dos trabalhadores federais em saúde e previdência social do PI.",
+        "name": "SINTSPREVS-PI",
+        "office": "ngo",
+        "phone": "+55 86 3223 3988"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831159324,
+      "lat": -25.5023663,
+      "lon": -54.5815652,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "146",
+        "addr:postcode": "85866-170",
+        "addr:street": "Alameda Batuiba",
+        "addr:suburb": "Vila A",
+        "name": "Centro de Direitos Humanos e Memória Popular",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831227032,
+      "lat": -25.5472456,
+      "lon": -54.5886862,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "314",
+        "addr:postcode": "85851-300",
+        "addr:street": "Rua João Rouver",
+        "addr:suburb": "Centro",
+        "name": "Aldeias Infantis – S.O.S. Brasil",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831300673,
+      "lat": -25.4788862,
+      "lon": -54.5818169,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "185",
+        "addr:postcode": "85867-150",
+        "addr:street": "Avenida Curitiba",
+        "addr:suburb": "Jardim Paraná",
+        "name": "Casa Família Maria Porta do Céu",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831300679,
+      "lat": -25.5255105,
+      "lon": -54.5518161,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "879",
+        "addr:postcode": "85857-050",
+        "addr:street": "Rua Capivari",
+        "addr:suburb": "Libra I",
+        "name": "SDS Cia. Teatral",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831324671,
+      "lat": -25.5230545,
+      "lon": -54.591574,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "528",
+        "addr:postcode": "85865-040",
+        "addr:street": "Rua Guimarães Rosa",
+        "addr:suburb": "Jardim América",
+        "name": "Núcleo Criança de Valor",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831327454,
+      "lat": -25.5758056,
+      "lon": -54.5613908,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "2195",
+        "addr:postcode": "85855-190",
+        "addr:street": "Avenida Morenitas",
+        "addr:suburb": "Jardim das Flores",
+        "name": "Centro de Atenção Integral ao Adolescente",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6831399100,
+      "lat": -25.4977817,
+      "lon": -54.5668483,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "749",
+        "addr:postcode": "85861-020",
+        "addr:street": "Avenida Gramado",
+        "addr:suburb": "Vila A",
+        "name": "União Iguaçuense de Apoio às Pessoas com Câncer",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6832882455,
+      "lat": -23.4455214,
+      "lon": -46.9154356,
+      "tags": {
+        "addr:city": "Santana de Parnaíba",
+        "addr:housenumber": "121",
+        "addr:street": "Rua André Fernandes",
+        "name": "Espaço do Servidor",
+        "office": "ngo",
+        "operator": "Sindicato dos Servidores Públicos de Santana de Parnaiba",
+        "short_name": "Parnasind"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6845527582,
+      "lat": -23.4452974,
+      "lon": -45.0698536,
+      "tags": {
+        "name": "Instituto Argonauta",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6976757427,
+      "lat": -25.5444017,
+      "lon": -54.5745852,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "56",
+        "addr:postcode": "85852-350",
+        "addr:street": "Rua Tadeu Trompschinski",
+        "addr:suburb": "Vila Maracanã",
+        "name": "Guarda Mirim",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7029455427,
+      "lat": -27.3169781,
+      "lon": -49.6360601,
+      "tags": {
+        "addr:housenumber": "574",
+        "addr:street": "Rua XV de Novembro",
+        "alt_name": "Sindicato Rural",
+        "name": "Sindicato dos Trabalhadores Rurais",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7047970152,
+      "lat": -9.4027434,
+      "lon": -38.213568,
+      "tags": {
+        "addr:housenumber": "06",
+        "addr:postcode": "48601-000",
+        "addr:street": "Rua da Juventude",
+        "addr:suburb": "Alves de Souza",
+        "name": "APAE de Paulo Afonso",
+        "office": "ngo",
+        "phone": "+55 75 3281 1784",
+        "ref": "CNES: 3663795"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7088391552,
+      "lat": -25.5135468,
+      "lon": -54.5352516,
+      "tags": {
+        "addr:city": "Foz do Iguaçu",
+        "addr:housenumber": "1663",
+        "addr:postcode": "85859-120",
+        "addr:street": "Rua Airton Moreira",
+        "addr:suburb": "Parque Residencial Morumbi IV",
+        "name": "Projeto Sol Nascente",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7241286630,
+      "lat": -15.6132753,
+      "lon": -56.1056213,
+      "tags": {
+        "name": "Associação Matogrossense dos Cegos - AMC",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7245134118,
+      "lat": -28.5333855,
+      "lon": -50.9323685,
+      "tags": {
+        "name": "Sociedade de Apoio aos animais Amigo do Bicho",
+        "office": "ngo",
+        "website": "http://www.amigodobicho.net/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7333204756,
+      "lat": -26.2144442,
+      "lon": -48.8197427,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "325",
+        "addr:postcode": "89226-530",
+        "addr:street": "Rua Camelo Pardalis",
+        "addr:suburb": "Jardim Paraíso",
+        "alt_name": "Red Cross Joinville",
+        "name": "Cruz Vermelha",
+        "note": "verificar localização exata ",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 09:00-12:00, 14:00-18:00",
+        "phone": "+55 47 9 9266 7059, +55 47 9 9168 5922"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7352476044,
+      "lat": -26.3046861,
+      "lon": -48.8471457,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "13",
+        "addr:postcode": "89201-420",
+        "addr:street": "Rua Jaguaruna",
+        "addr:suburb": "Centro",
+        "alt_name": "CVV Joinville",
+        "name": "Centro de Valorização da Vida - CVV",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 07:30-11:30",
+        "website": "https://www.cvv.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7359653082,
+      "lat": -26.2724262,
+      "lon": -48.8855449,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "3290",
+        "addr:postcode": "89220-002",
+        "addr:street": "Rua Inambu",
+        "addr:suburb": "Costa e Silva",
+        "name": "Casa do Adalto",
+        "note": "mover para localização exata ",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:00",
+        "phone": "+55 47 3438 1629",
+        "website": "http://www.casadoadalto.org.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7385582098,
+      "lat": -26.2988322,
+      "lon": -48.8482325,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "106",
+        "addr:postcode": "89201-330",
+        "addr:street": "Rua Mário Lobo",
+        "addr:suburb": "Centro",
+        "alt_name": "Ajos Joinville",
+        "name": "Associação Joinvilense de Organizações Sociais - Ajos",
+        "office": "ngo",
+        "phone": "+55 47 3422 5811"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7405888377,
+      "lat": -26.3161363,
+      "lon": -48.8636617,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "54",
+        "addr:postcode": "89203-900",
+        "addr:street": "Rua Xavantes",
+        "addr:suburb": "Atiradores",
+        "name": "Instituto Carlos Roberto Hansen - ICRH",
+        "office": "ngo",
+        "phone": "+55 47 3441 5305",
+        "website": "https://icrh.com.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7410848531,
+      "lat": -26.2979042,
+      "lon": -48.8515073,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "89",
+        "addr:postcode": "89204-260",
+        "addr:street": "Rua Luiz Brockmann",
+        "addr:suburb": "América",
+        "name": "Associação Joinvillense de Combate ao Câncer - AJCC",
+        "office": "ngo",
+        "phone": "+55 47 3439 3596"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7412492444,
+      "lat": -26.2998967,
+      "lon": -48.8467785,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "447",
+        "addr:postcode": "89201-270",
+        "addr:street": "Rua Princesa Isabel",
+        "addr:suburb": "Centro",
+        "name": "Sindicato do Comércio Varejista de Joinville e Região - Sindilojas",
+        "office": "ngo",
+        "phone": "+55 47 3026 2600",
+        "website": "http://sindilojasjoi.com.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7541346115,
+      "lat": -26.3789685,
+      "lon": -48.8311093,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "510",
+        "addr:postcode": "89233-700",
+        "addr:street": "Rua dos Esportistas",
+        "addr:suburb": "Itinga",
+        "name": "Associação dos Moradores do Bairro Itinga - Amabi",
+        "office": "ngo",
+        "phone": "+55 47 3465 2075"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7541412296,
+      "lat": -26.282457,
+      "lon": -48.7738895,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "725",
+        "addr:postcode": "89228-730",
+        "addr:street": "Rua Francisco Eduardo Bernardo",
+        "addr:suburb": "Espinheiros",
+        "name": "Associação de Moradores e Amigos do Espinheiros",
+        "office": "ngo",
+        "opening_hours": "Mo-Su 09:00-19:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7569947354,
+      "lat": -26.2876463,
+      "lon": -48.843944,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "470",
+        "addr:postcode": "89204-100",
+        "addr:street": "Rua Itaiópolis",
+        "addr:suburb": "América",
+        "name": "Mesa Brasil Sesc",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+55 47 3441 3300",
+        "website": "https://www.sesc.com.br/mesabrasil/estados.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7670751452,
+      "lat": -5.7501422,
+      "lon": -35.2049098,
+      "tags": {
+        "name": "GAMI - Grupo Afirmativo de Mulheres Indepentes",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7761886127,
+      "lat": -23.8154181,
+      "lon": -46.7360418,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "5252",
+        "addr:postcode": "04883-025",
+        "addr:street": "Estrada Ecoturistica de Parelheiros",
+        "addr:suburb": "Jardim dos Álamos",
+        "alt_name": "Casa de Agricultura Ecológica Parelheiros",
+        "name": "Casa da Agricultura Ecológica de Parelheiros - CAE",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7782327183,
+      "lat": -25.437665,
+      "lon": -49.2568857,
+      "tags": {
+        "email": "apfmf@yahoo.com.br",
+        "name": "Associação Paranaense de Ferreomodelismo e Memória Ferroviária",
+        "office": "ngo",
+        "short_name": "APFMF",
+        "website": "http://www.ferreomodelismo.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7782329400,
+      "lat": -25.4372484,
+      "lon": -49.2594069,
+      "tags": {
+        "addr:housenumber": "1115",
+        "addr:street": "Rua Mariano Torres",
+        "branch": "Regional Paraná",
+        "name": "Associação Brasileira de Preservação Ferroviária",
+        "office": "ngo",
+        "short_name": "ABPF"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7838299522,
+      "lat": -22.8547017,
+      "lon": -43.2403178,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:street": "Rua Teixeira Ribeiro",
+        "addr:suburb": "Maré",
+        "name": "Luta Pela Paz",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7840394353,
+      "lat": -22.3267998,
+      "lon": -49.0788674,
+      "tags": {
+        "addr:housenumber": "3-40",
+        "addr:street": "Rua Cussy Júnior",
+        "brand": "CUT",
+        "email": "contato@sindferroviariosbauru.com.br",
+        "name": "Sindicato dos Trabalhadores em Empresas Ferroviárias de Bauru, Mato Grosso do Sul e Mato Grosso",
+        "office": "ngo",
+        "phone": "+55-14-3223-6642",
+        "short_name": "Sindicato dos Ferroviários",
+        "start_date": "1933",
+        "website": "http://www.sindferroviariosbauru.com.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8258509440,
+      "lat": -30.0857213,
+      "lon": -51.7429329,
+      "tags": {
+        "addr:street": "Rua Dona Cotinha",
+        "name": "ASSOCIAÇÃO COMUNITÁRIA CRISTÃ EBENEZER",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8262113494,
+      "lat": -14.0665109,
+      "lon": -42.4911812,
+      "tags": {
+        "name": "Sindicato dos Pequenos Produtores Rurais de Caetité",
+        "office": "ngo",
+        "phone": "+55 77 3454 2362",
+        "short_name": "SINPEP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8286110473,
+      "lat": -12.5594163,
+      "lon": -41.3864302,
+      "tags": {
+        "name": "EcoViva",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8322494013,
+      "lat": -15.7436313,
+      "lon": -47.8982267,
+      "tags": {
+        "name": "Cruz Vermelha",
+        "office": "ngo",
+        "phone": "+55 61 3361 6904"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8463513510,
+      "lat": -23.5312041,
+      "lon": -46.3337798,
+      "tags": {
+        "name": "Social Skate",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8533521111,
+      "lat": -29.6471705,
+      "lon": -50.7810838,
+      "tags": {
+        "addr:city": "Taquara",
+        "addr:housenumber": "2751",
+        "addr:postcode": "95600-000",
+        "addr:street": "Rua Júlio de Castilhos",
+        "addr:suburb": "Centro",
+        "name": "CICS-VP",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8554089567,
+      "lat": -25.4907657,
+      "lon": -50.6710336,
+      "tags": {
+        "name": "Cidade da Criança",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8587062136,
+      "lat": -29.6134993,
+      "lon": -50.9268919,
+      "tags": {
+        "name": "Liga Feminina de Combate ao Câncer",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8615391958,
+      "lat": -23.0481626,
+      "lon": -47.8357315,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "188",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Barão do Rio Branco",
+        "addr:suburb": "Centro",
+        "description": "Subsede Laranjal Paulista.",
+        "level": "1",
+        "name": "Sindicato dos Empregados no Comércio de Botucatu e Região",
+        "office": "ngo",
+        "phone": "+55 15 3283-2308",
+        "short_name": "Sincomerciários Botucatu"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8663757543,
+      "lat": -23.0462328,
+      "lon": -47.8362825,
+      "tags": {
+        "addr:city": "Laranjal Paulista",
+        "addr:housenumber": "86",
+        "addr:postcode": "18500-000",
+        "addr:street": "Rua Nagib Miguel Jorge Lulia",
+        "addr:suburb": "Centro",
+        "name": "Clube 33",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8791981462,
+      "lat": -4.1814158,
+      "lon": -38.1305578,
+      "tags": {
+        "addr:street": "Rua João Tomaz Ferreira",
+        "name": "Brechó",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8792821744,
+      "lat": -23.7175852,
+      "lon": -46.6237181,
+      "tags": {
+        "addr:city": "Diadema",
+        "addr:housenumber": "299",
+        "addr:postcode": "09972-260",
+        "addr:street": "Avenida Nossa Senhora dos Navegantes",
+        "addr:suburb": "Eldorado",
+        "contact:mobile": "+55 11 99990 3769",
+        "name": "ONG Fazer o Bem sem Olhar a Quem",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa,Su,PH off",
+        "phone": "+55 11 4043 5521"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8796835234,
+      "lat": -5.6309419,
+      "lon": -42.4109897,
+      "tags": {
+        "name": "Instituto Engrácia Ribeiro",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8837237736,
+      "lat": -6.471845,
+      "lon": -37.0978026,
+      "tags": {
+        "name": "Projeto Bombeiros Mirins",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8838970268,
+      "lat": -23.5197986,
+      "lon": -46.5906017,
+      "tags": {
+        "addr:city": "São Paulo",
+        "addr:housenumber": "1070",
+        "addr:postcode": "02113-012",
+        "addr:street": "Avenida Guilherme Cotching",
+        "addr:suburb": "Vila Maria",
+        "name": "Associação Comercial São Paulo",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8878059817,
+      "lat": -21.7477084,
+      "lon": -43.8554538,
+      "tags": {
+        "name": "Grotinha MIB Muriquis",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8878059918,
+      "lat": -21.7487957,
+      "lon": -43.868109,
+      "tags": {
+        "name": "MIB Muriqui Instituto de Biodiversidade",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8880051497,
+      "lat": -7.199517,
+      "lon": -35.884054,
+      "tags": {
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8880543776,
+      "lat": -26.2981365,
+      "lon": -48.8217911,
+      "tags": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "1925",
+        "addr:postcode": "89206-101",
+        "addr:street": "Rua Prefeito Helmuth Fallgatter",
+        "addr:suburb": "Boa Vista",
+        "name": "Jardim Bakhita",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 07:00-18:00",
+        "phone": "+55 47 3432 0704",
+        "website": "https://www.jardimbakhita.com.br"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9014746461,
+      "lat": -28.4702369,
+      "lon": -48.7776969,
+      "tags": {
+        "amenity": "social_facility",
+        "contact:facebook": "https://www.facebook.com/ong.acustra/",
+        "contact:phone": "+55 48 99969-0055",
+        "name": "Associação Cultural Social e Terapêutica da Região da AMUREL",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 13:00-18:00; Sa,Su,PH off",
+        "operator": "ACUSTRA",
+        "operator:type": "private",
+        "short_name": "Acustra",
+        "social_facility": "workshop",
+        "social_facility:for": "juvenile"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9017189293,
+      "lat": -8.9153437,
+      "lon": -37.9045806,
+      "tags": {
+        "addr:city": "Inajá",
+        "addr:postcode": "56560000",
+        "addr:street": "Amigos do Bem,",
+        "addr:suburb": "Zona Rural",
+        "name": "Centro de Transformação Amigos do Bem",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9401686669,
+      "lat": -24.7119432,
+      "lon": -47.566033,
+      "tags": {
+        "addr:city": "iguape",
+        "addr:postcode": "11920-000",
+        "addr:street": "Rua Vitoriano Ferreira",
+        "addr:suburb": "rocio",
+        "name": "Projeto Fazendo Acontecer",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9590455061,
+      "lat": -29.7310658,
+      "lon": -53.5397654,
+      "tags": {
+        "contact:email": "adsmpalma@gmail.com",
+        "contact:facebook": "https://www.facebook.com/projetoimpactarvidas",
+        "contact:phone": "55996247578",
+        "name": "Projeto Impactar Vidas",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9623367559,
+      "lat": -25.4306316,
+      "lon": -48.7113083,
+      "tags": {
+        "addr:city": "Antonina",
+        "addr:housenumber": "316",
+        "addr:postcode": "83370-000",
+        "addr:street": "Praça Cel. Macedo",
+        "addr:suburb": "Centro",
+        "name": "ADEMADAN",
+        "office": "ngo",
+        "website": "https://www.ademadan.org.br/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9625256985,
+      "lat": -7.969736,
+      "lon": -34.8446244,
+      "tags": {
+        "addr:city": "Olinda",
+        "addr:housenumber": "568",
+        "addr:postcode": "53060000",
+        "addr:street": "Rua Escritor Ramos de Almeida",
+        "addr:suburb": "Jardim Atlântico",
+        "name": "Coocencipe",
+        "office": "ngo",
+        "phone": "(81) 99658-4497"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9718876051,
+      "lat": -19.884281,
+      "lon": -44.023669,
+      "tags": {
+        "name": "Sede Comunitária - Projeto Geração GK",
+        "office": "ngo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9749852622,
+      "lat": -27.2550769,
+      "lon": -49.9295145,
+      "tags": {
+        "addr:city": "Pouso Redondo",
+        "addr:housenumber": "825",
+        "addr:postcode": "89172-000",
+        "addr:street": "Rua Itajaí",
+        "addr:suburb": "Arno Siewerdt",
+        "amenity": "animal_shelter",
+        "animal_shelter": "dog;cat;bird;wildlife",
+        "name": "Projeto Ponte de Adoção - Reabilitação",
+        "office": "ngo",
+        "opening_hours": "24/7",
+        "operator": "Fabricio Meriz",
+        "phone": "+55 47 92001-1117"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9892491717,
+      "lat": -3.0759252,
+      "lon": -68.0674817,
+      "tags": {
+        "addr:street": "Rua Laranjal",
+        "email": "institutongutapa@hotmail.com",
+        "name": "Sede Escritório do Instituto Ngutapa",
+        "office": "ngo",
+        "phone": "+55 97 9 9178 9400"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9897586610,
+      "lat": -22.9116749,
+      "lon": -43.2198808,
+      "tags": {
+        "addr:city": "Rio de Janeiro",
+        "addr:housenumber": "29",
+        "addr:postcode": "20271-040",
+        "addr:street": "Rua Pedro Guedes",
+        "addr:suburb": "Maracanã",
+        "name": "Instituto Ronald McDonald",
+        "office": "ngo",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "(21) 2176-3800",
+        "website": "https://institutoronald.org.br/"
+      }
+    }
+  ]
+}
