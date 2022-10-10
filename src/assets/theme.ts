@@ -4,10 +4,19 @@ const colors = {
   primary: "#3CA0DE",
   secondary: "#000000",
   tertiary: "#FFFFFF",
+  responsive: "#FCF8F2",
 };
 
 const fonts = {
   default: "'Nunito', sans-serif",
 };
 
-export const theme = extendTheme({ colors, fonts });
+const styles = {
+  global: {
+    "html, body, #root": {
+      height: "100%",
+    },
+  },
+};
+
+export const theme = extendTheme({ colors, fonts, styles });

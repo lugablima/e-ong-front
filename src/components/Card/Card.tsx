@@ -30,7 +30,8 @@ function ChatCard() {
 export default function Card({ ongName, ongAddress }: Props) {
   return (
     <Flex
-      w="345px"
+      w="100%"
+      maxW="345px"
       h="72px"
       p="10px 22px 10px 60px"
       justify="space-between"
