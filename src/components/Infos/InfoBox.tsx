@@ -25,6 +25,7 @@ export default function InfoBox({
   return (
     <Box
       w={width}
+      maxW="345px"
       h={height}
       border={border}
       boxShadow="0px 1px 4px rgba(0, 0, 0, 0.25)"

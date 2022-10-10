@@ -6,11 +6,15 @@ import InfoText from "../components/Infos/InfoText";
 export default function ProfilePage() {
   return (
     <Flex
+      h="auto"
+      minH="100%"
       direction="column"
       justify="flex-start"
       align="center"
-      m="146px 0 0 240px"
-      p="0 177.5px 67px"
+      // m="146px 0 0 240px"
+      // p="0 177.5px 67px"
+      p={{ base: "30px 30px 97px", lg: "146px 0 67px 240px" }}
+      bg={{ base: "responsive", lg: "tertiary" }}
     >
       <InfoText
         fontWeight={600}
