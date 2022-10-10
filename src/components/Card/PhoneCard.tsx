@@ -10,7 +10,8 @@ export default function PhoneCard({ number, description }: Props) {
     <Flex
       direction="column"
       justify="space-between"
-      w="348px"
+      w="100%"
+      maxW="345px"
       h="80px"
       bg="primary"
       borderRadius="12px"

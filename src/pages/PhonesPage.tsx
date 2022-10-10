@@ -10,8 +10,8 @@ export default function PhonesPage() {
       justify="flex-start"
       align="center"
       rowGap="15px"
-      pb="67px"
-      m="146px 0 0 240px"
+      p={{ base: "30px 30px 97px", lg: "146px 0 67px 240px" }}
+      bg={{ base: "responsive", lg: "tertiary" }}
     >
       <Text
         fontFamily="default"
