@@ -7,6 +7,7 @@
 
 .eslint*
 .prettier*
+.env
 
 # testing
 /coverage
