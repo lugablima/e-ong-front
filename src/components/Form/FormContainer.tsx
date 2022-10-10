@@ -13,6 +13,7 @@ export default function FormContainer({ height, title, children }: Props) {
     <Box
       w="100%"
       h={height}
+      minH="100%"
       p="50px 0"
       bg="primary"
       display="flex"

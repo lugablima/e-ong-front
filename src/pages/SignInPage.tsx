@@ -46,7 +46,7 @@ export default function SignInPage() {
   }
 
   return (
-    <FormContainer title="Login" height="100%">
+    <FormContainer title="Login" height="auto">
       <FormControl as="form" onSubmit={(e) => handleSubmit(e)}>
         <Label label="Email" />
         <FormInput type="email" state={email} setState={setEmail} required />
