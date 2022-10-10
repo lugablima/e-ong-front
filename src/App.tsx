@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { theme } from "./assets/theme";
 import Header from "./components/Header/Header";
+import MobileMenu from "./components/MobileMenu/MobileMenu";
 import SideBar from "./components/SideBar/SideBar";
 import UserProvider from "./context/UserContext";
 import ChatPage from "./pages/ChatPage";
@@ -22,6 +23,7 @@ export function App() {
         <BrowserRouter>
           <Header />
           <SideBar />
+          <MobileMenu />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/sign-in" element={<SignInPage />} />
