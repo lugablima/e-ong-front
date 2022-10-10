@@ -8,6 +8,8 @@ interface IUserData {
 export interface IUserContext {
   user: IUserData | null;
   setUser: React.Dispatch<React.SetStateAction<IUserData | null>>;
+  userCity: string;
+  setUserCity: React.Dispatch<React.SetStateAction<string>>;
 }
 
 interface Props {
@@ -29,12 +31,13 @@ export const useUserContext = () => useContext(UserContext);
 
 export default function UserProvider({ children }: Props) {
   const [user, setUser] = useState<IUserData | null>(getLocalUser());
+  const [userCity, setUserCity] = useState<string>("");
   useEffect(() => {
     localStorage.setItem("user", JSON.stringify(user));
   }, [user]);
 
   return (
-    <UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider value={{ user, setUser, userCity, setUserCity }}>
       {children}
     </UserContext.Provider>
   );

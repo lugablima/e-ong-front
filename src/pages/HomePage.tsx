@@ -1,12 +1,25 @@
-// import { Box, Flex, Text } from "@chakra-ui/react";
 import { Show } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+
+import { useUserContext, IUserContext } from "../context/UserContext";
+import { calculateUserCity } from "../services/userService";
 
 function LocationMarkerUser() {
   const map = useMap();
   const [latitude, setLatitude] = useState<number>(0);
   const [longitude, setLongitude] = useState<number>(0);
+  const { setUserCity } = useUserContext() as IUserContext;
+
+  async function getUserCity(lat: number, lon: number) {
+    try {
+      const city = await calculateUserCity(lat, lon);
+
+      setUserCity(city);
+    } catch (error) {
+      alert(error);
+    }
+  }
 
   function getLocation() {
     if (navigator.geolocation) {
@@ -14,6 +27,7 @@ function LocationMarkerUser() {
         setLatitude(position.coords.latitude);
         setLongitude(position.coords.longitude);
         map.flyTo([position.coords.latitude, position.coords.longitude], 13);
+        getUserCity(position.coords.latitude, position.coords.longitude);
       });
     } else {
       alert(
