@@ -6,13 +6,11 @@ import InfoText from "../components/Infos/InfoText";
 export default function ProfilePage() {
   return (
     <Flex
-      w="355px"
-      h="calc(100vh - 56px)"
       direction="column"
       justify="flex-start"
       align="center"
-      alignSelf="center"
-      p="146px 0 67px"
+      m="146px 0 0 240px"
+      p="0 177.5px 67px"
     >
       <InfoText
         fontWeight={600}

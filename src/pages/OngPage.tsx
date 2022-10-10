@@ -60,11 +60,11 @@ function Tag({ text }: TagProps) {
 export default function OngPage() {
   return (
     <Flex
-      w="355px"
       direction="column"
       justify="flex-start"
       alignSelf="center"
-      p="146px 0 67px"
+      m="146px 0 0 240px"
+      p="0 177.5px 67px"
     >
       <InfoText fontSize="24px" margin="0 0 38px" text="Nome da ONG" />
       <Field field="Endereço" value="Schindler's Street, New York" />

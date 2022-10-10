@@ -10,8 +10,8 @@ export default function PhonesPage() {
       justify="flex-start"
       align="center"
       rowGap="15px"
-      p="119px 0 67px"
-      overflowY="auto"
+      pb="67px"
+      m="146px 0 0 240px"
     >
       <Text
         fontFamily="default"

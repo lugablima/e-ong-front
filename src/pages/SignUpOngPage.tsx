@@ -1,4 +1,11 @@
-import { FormControl, Flex, Wrap, WrapItem, Box } from "@chakra-ui/react";
+import {
+  FormControl,
+  Flex,
+  Wrap,
+  WrapItem,
+  Box,
+  Checkbox,
+} from "@chakra-ui/react";
 import { useState, useEffect, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -22,6 +29,7 @@ export default function SignUpOngPage() {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   // const [actingArea, setActingArea] = useState<string>("");
+  // const [optionsActingArea, setOptionsActingArea] = useState<string>("");
   const [description, setDescription] = useState<string>("");
   const [street, setStreet] = useState<string>("");
   const [neighborhood, setNeighborhood] = useState<string>("");
@@ -29,10 +37,13 @@ export default function SignUpOngPage() {
   const [complement, setComplement] = useState<string>("");
   const [zipCode, setZipCode] = useState<string>("");
   // const [city, setCity] = useState<string>("");
+  // const [optionsCity, setOptionsCity] = useState<string>("");
   // const [state, setState] = useState<string>("");
+  // const [optionsState, setOptionsState] = useState<string>("");
   const [socialMedias, setSocialMedias] = useState<string>("");
   const [phones, setPhones] = useState<string>("");
   // const [donationNeeds, setDonationNeeds] = useState<string>("");
+  // const [optionsDonationNeeds, setOptionsDonationNeeds] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const navigate = useNavigate();
   const { user, setUser } = useUserContext() as IUserContext;
@@ -168,7 +179,7 @@ export default function SignUpOngPage() {
         <Label label="Mídias Sociais" />
         <FormInput
           type="text"
-          placeholder="Ex: @e-ONG;e-ONG-2 (Separe os endereços por ponto e vírgula)"
+          placeholder="Ex: @e-ONG;e-ONG-2"
           state={socialMedias}
           setState={setSocialMedias}
           required
@@ -177,18 +188,24 @@ export default function SignUpOngPage() {
         <Label label="Telefones" />
         <FormInput
           type="text"
-          placeholder="Ex: (11)11111-1111;(22)22222-2222 (Separe os telefones por ponto e vírgula)"
+          placeholder="Ex: (11)11111-1111;(22)22222-2222"
           state={phones}
           setState={setPhones}
           required
         />
 
-        <Label label="Necessidades" />
-        <FormSelect
-          placeholder="Selecione o item"
-          options={["Roupas", "Produtos de Higiene"]}
-          required
-        />
+        <Label label="Items em falta (Selecione quantos quiser)" />
+        <Wrap spacing="10px" mb="19px" justify="space-between">
+          <Checkbox fontFamily="default" color="tertiary" size="14px">
+            Roupas
+          </Checkbox>
+          <Checkbox fontFamily="default" color="tertiary" size="14px">
+            Comida
+          </Checkbox>
+          <Checkbox fontFamily="default" color="tertiary" size="14px">
+            Produtos de Higiene
+          </Checkbox>
+        </Wrap>
 
         <Label label="Senha" />
         <FormInput

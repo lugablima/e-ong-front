@@ -64,7 +64,7 @@ export default function HomePage() {
 
   return (
     <MapContainer
-      style={{ height: "calc(100vh - 56px)", marginTop: "56px" }}
+      style={{ height: "calc(100vh - 56px)", margin: "56px 0 0 240px" }}
       center={[-8.52795743904315, -55.91004811864883]}
       zoom={18}
       scrollWheelZoom
