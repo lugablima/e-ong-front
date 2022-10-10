@@ -1,4 +1,5 @@
 // import { Box, Flex, Text } from "@chakra-ui/react";
+import { Show } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 
@@ -63,22 +64,46 @@ export default function HomePage() {
   }, []);
 
   return (
-    <MapContainer
-      style={{ height: "calc(100vh - 56px)", margin: "56px 0 0 240px" }}
-      center={[-8.52795743904315, -55.91004811864883]}
-      zoom={18}
-      scrollWheelZoom
-    >
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <LocationMarkerUser />
-      {!ngo
-        ? ""
-        : ngo.map((el) => (
-            <LocationMarkerNgo key={el.id} lat={el.lat} lon={el.lon} />
-          ))}
-    </MapContainer>
+    <>
+      {" "}
+      <Show above="lg">
+        <MapContainer
+          style={{ height: "calc(100% - 56px)", margin: "56px 0 0 240px" }}
+          center={[-8.52795743904315, -55.91004811864883]}
+          zoom={18}
+          scrollWheelZoom
+        >
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <LocationMarkerUser />
+          {!ngo
+            ? ""
+            : ngo.map((el) => (
+                <LocationMarkerNgo key={el.id} lat={el.lat} lon={el.lon} />
+              ))}
+        </MapContainer>
+      </Show>
+      <Show below="lg">
+        <MapContainer
+          style={{ height: "calc(100% - 67px)", margin: "0 0 67px" }}
+          center={[-8.52795743904315, -55.91004811864883]}
+          zoom={18}
+          scrollWheelZoom
+        >
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <LocationMarkerUser />
+          {!ngo
+            ? ""
+            : ngo.map((el) => (
+                <LocationMarkerNgo key={el.id} lat={el.lat} lon={el.lon} />
+              ))}
+        </MapContainer>
+      </Show>
+    </>
   );
 }
