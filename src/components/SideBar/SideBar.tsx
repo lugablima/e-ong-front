@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-useless-fragment */
-import { Box } from "@chakra-ui/react";
+import { Box, Show } from "@chakra-ui/react";
 import { IoMdChatboxes } from "react-icons/io";
 import { IoHomeSharp, IoLocationSharp, IoPersonCircle } from "react-icons/io5";
 import { MdLocalPhone } from "react-icons/md";
@@ -16,7 +16,7 @@ export default function SideBar() {
   const path = location.pathname;
 
   return (
-    <>
+    <Show above="lg">
       {path !== "/sign-in" && path !== "/sign-up" && path !== "/sign-up/ong" ? (
         <Bar>
           <SideBarHeader />
@@ -45,6 +45,6 @@ export default function SideBar() {
       ) : (
         ""
       )}
-    </>
+    </Show>
   );
 }

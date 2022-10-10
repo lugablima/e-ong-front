@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-useless-fragment */
-import { Flex } from "@chakra-ui/react";
+import { Flex, Show } from "@chakra-ui/react";
 import { useLocation } from "react-router-dom";
 
 import HeaderButton from "./HeaderButton";
@@ -9,7 +9,7 @@ export default function Header() {
   const path = location.pathname;
 
   return (
-    <>
+    <Show above="lg">
       {path !== "/sign-in" && path !== "/sign-up" && path !== "/sign-up/ong" ? (
         <Flex
           w="calc(100vw - 240px)"
@@ -31,6 +31,6 @@ export default function Header() {
       ) : (
         ""
       )}
-    </>
+    </Show>
   );
 }
