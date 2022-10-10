@@ -52,7 +52,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <FormContainer title="Cadastre-se">
+    <FormContainer title="Cadastre-se" height="auto">
       <FormControl as="form" onSubmit={(e) => handleSubmit(e)}>
         <Label label="Nome completo" />
         <FormInput type="text" state={name} setState={setName} required />

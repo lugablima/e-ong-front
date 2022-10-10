@@ -3,14 +3,16 @@ import { Box, Text } from "@chakra-ui/react";
 import FormLogo from "./FormLogo";
 
 interface Props {
+  height: string;
   title: string;
   children: JSX.Element;
 }
 
-export default function FormContainer({ title, children }: Props) {
+export default function FormContainer({ height, title, children }: Props) {
   return (
     <Box
       w="100%"
+      h={height}
       p="50px 0"
       bg="primary"
       display="flex"
