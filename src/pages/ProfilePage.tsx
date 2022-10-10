@@ -11,8 +11,6 @@ export default function ProfilePage() {
       direction="column"
       justify="flex-start"
       align="center"
-      // m="146px 0 0 240px"
-      // p="0 177.5px 67px"
       p={{ base: "30px 30px 97px", lg: "146px 0 67px 240px" }}
       bg={{ base: "responsive", lg: "tertiary" }}
     >

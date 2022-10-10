@@ -60,17 +60,21 @@ function Tag({ text }: TagProps) {
 export default function OngPage() {
   return (
     <Flex
+      h="auto"
+      minH="100%"
       direction="column"
       justify="flex-start"
-      alignSelf="center"
-      m="146px 0 0 240px"
-      p="0 177.5px 67px"
+      align="center"
+      // m="146px 0 0 240px"
+      // p="0 177.5px 67px"
+      p={{ base: "30px 30px 97px", lg: "146px 0 67px 240px" }}
+      bg={{ base: "responsive", lg: "tertiary" }}
     >
       <InfoText fontSize="24px" margin="0 0 38px" text="Nome da ONG" />
       <Field field="Endereço" value="Schindler's Street, New York" />
       <Field field="Área de atuação" value="Área de atuação" />
       <Field field="Descrição" value="Descrição" height="107px" />
-      <Flex w="100%" mb="16px">
+      <Flex w="100%" maxW="345px" mb="16px">
         <Flex w="50%" direction="column">
           <InfoText
             fontSize="20px"
@@ -112,7 +116,14 @@ export default function OngPage() {
         margin="0 0 5px"
         text="O que precisamos?"
       />
-      <Flex w="100%" flexWrap="wrap" columnGap="31px" rowGap="18px" mb="16px">
+      <Flex
+        w="100%"
+        maxW="345px"
+        flexWrap="wrap"
+        columnGap="31px"
+        rowGap="18px"
+        mb="16px"
+      >
         <Tag text="Alimentos" />
         <Tag text="Roupas" />
         <Tag text="Produtos de Higiene" />
@@ -125,6 +136,7 @@ export default function OngPage() {
       />
       <Textarea
         w="100%"
+        maxW="345px"
         h="154px"
         bg="tertiary"
         border="1px solid #000000"
