@@ -1,9 +1,18 @@
-import { Box, Button, Flex, IconButton, Textarea } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  IconButton,
+  Show,
+  Textarea,
+} from "@chakra-ui/react";
 import {
   AiFillFacebook,
   AiFillInstagram,
   AiFillTwitterSquare,
 } from "react-icons/ai";
+import { IoChevronBackSharp } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 import InfoBox from "../components/Infos/InfoBox";
 import InfoText from "../components/Infos/InfoText";
@@ -58,6 +67,8 @@ function Tag({ text }: TagProps) {
 }
 
 export default function OngPage() {
+  const navigate = useNavigate();
+
   return (
     <Flex
       h="auto"
@@ -65,11 +76,22 @@ export default function OngPage() {
       direction="column"
       justify="flex-start"
       align="center"
-      // m="146px 0 0 240px"
-      // p="0 177.5px 67px"
       p={{ base: "30px 30px 97px", lg: "146px 0 67px 240px" }}
       bg={{ base: "responsive", lg: "tertiary" }}
+      position="relative"
     >
+      <Show above="lg">
+        <IoChevronBackSharp
+          onClick={() => navigate(-1)}
+          style={{
+            fontSize: "24px",
+            position: "absolute",
+            top: "78px",
+            left: "262px",
+            cursor: "pointer",
+          }}
+        />
+      </Show>
       <InfoText fontSize="24px" margin="0 0 38px" text="Nome da ONG" />
       <Field field="Endereço" value="Schindler's Street, New York" />
       <Field field="Área de atuação" value="Área de atuação" />
