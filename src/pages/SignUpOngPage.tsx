@@ -153,7 +153,7 @@ export default function SignUpOngPage() {
       description,
       address,
     };
-    console.log(body);
+
     try {
       await signUpOngOrFail(body);
 

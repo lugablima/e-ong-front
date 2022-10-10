@@ -16,7 +16,9 @@ function LocationMarkerUser() {
         map.flyTo([position.coords.latitude, position.coords.longitude], 13);
       });
     } else {
-      alert("Sem!");
+      alert(
+        "Não foi possível obter sua localização, por favor, tente novamente mais tarde!",
+      );
     }
   }
 
