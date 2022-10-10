@@ -2,11 +2,13 @@
 import { Flex, Show } from "@chakra-ui/react";
 import { useLocation } from "react-router-dom";
 
+import { useUserContext, IUserContext } from "../../context/UserContext";
 import HeaderButton from "./HeaderButton";
 
 export default function Header() {
   const location = useLocation();
   const path = location.pathname;
+  const { user } = useUserContext() as IUserContext;
 
   return (
     <Show above="lg">
@@ -25,8 +27,14 @@ export default function Header() {
           right="0"
           zIndex="1"
         >
-          <HeaderButton text="Fazer login" path="/sign-in" />
-          <HeaderButton text="Cadastre-se" path="/sign-up" />
+          {!user ? (
+            <>
+              <HeaderButton text="Fazer login" path="/sign-in" />
+              <HeaderButton text="Cadastre-se" path="/sign-up" />
+            </>
+          ) : (
+            <HeaderButton text="Sair" path="/sign-in" />
+          )}
         </Flex>
       ) : (
         ""
