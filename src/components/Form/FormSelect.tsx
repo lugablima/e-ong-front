@@ -1,4 +1,5 @@
 import { Select } from "@chakra-ui/react";
+import React from "react";
 
 interface FormSelectProps {
   width?: string;
@@ -6,6 +7,8 @@ interface FormSelectProps {
   marginBottom?: string;
   options: string[];
   required: boolean;
+  state: string;
+  setState: React.Dispatch<React.SetStateAction<string>>;
 }
 
 export default function FormSelect({
@@ -14,6 +17,8 @@ export default function FormSelect({
   marginBottom,
   options,
   required,
+  state,
+  setState,
 }: FormSelectProps) {
   return (
     <Select
@@ -25,6 +30,8 @@ export default function FormSelect({
       color="tertiary"
       fontFamily="default"
       required={required}
+      value={state}
+      onChange={(e) => setState(e.target.value)}
     >
       {options.length
         ? options.map((opt) => <option key={Math.random()}>{opt}</option>)

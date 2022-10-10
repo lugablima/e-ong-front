@@ -6,7 +6,7 @@ import {
   Box,
   Checkbox,
 } from "@chakra-ui/react";
-import { useState, useEffect, FormEvent } from "react";
+import { useState, useEffect, FormEvent, ChangeEvent } from "react";
 import { useNavigate } from "react-router-dom";
 
 import FormButton from "../components/Form/FormButton";
@@ -17,61 +17,163 @@ import FormSelect from "../components/Form/FormSelect";
 import Label from "../components/Form/Label";
 import InfoText from "../components/Infos/InfoText";
 import { useUserContext, IUserContext } from "../context/UserContext";
-import { signUpUserOrFail, signInUserOrFail } from "../services/authService";
+import { getAllActingAreas } from "../services/actingAreasService";
+import { signInUserOrFail, signUpOngOrFail } from "../services/authService";
+import { getAllCities } from "../services/citiesService";
+import { getAllDonationNeeds } from "../services/donationNeedsService";
+import { getAllStates } from "../services/statesService";
 
-export interface ISignUpUser {
+interface IAddress {
+  street: string;
+  neighborhood: string;
+  number: string;
+  complement: string;
+  zipCode: string;
+  city: string;
+  state: string;
+}
+
+export interface ISignUpOng {
   name: string;
   email: string;
   password: string;
+  actingArea: string;
+  description: string;
+  address: IAddress;
 }
 
 export default function SignUpOngPage() {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
-  // const [actingArea, setActingArea] = useState<string>("");
-  // const [optionsActingArea, setOptionsActingArea] = useState<string>("");
+  const [actingArea, setActingArea] = useState<string>("");
+  const [optionsActingArea, setOptionsActingArea] = useState<string[]>([]);
   const [description, setDescription] = useState<string>("");
   const [street, setStreet] = useState<string>("");
   const [neighborhood, setNeighborhood] = useState<string>("");
   const [number, setNumber] = useState<string>("");
   const [complement, setComplement] = useState<string>("");
   const [zipCode, setZipCode] = useState<string>("");
-  // const [city, setCity] = useState<string>("");
-  // const [optionsCity, setOptionsCity] = useState<string>("");
-  // const [state, setState] = useState<string>("");
-  // const [optionsState, setOptionsState] = useState<string>("");
+  const [city, setCity] = useState<string>("");
+  const [optionsCity, setOptionsCity] = useState<string[]>([]);
+  const [state, setState] = useState<string>("");
+  const [optionsState, setOptionsState] = useState<string[]>([]);
   const [socialMedias, setSocialMedias] = useState<string>("");
   const [phones, setPhones] = useState<string>("");
-  // const [donationNeeds, setDonationNeeds] = useState<string>("");
-  // const [optionsDonationNeeds, setOptionsDonationNeeds] = useState<string>("");
+  const [donationNeeds, setDonationNeeds] = useState<string[]>([]);
+  const [optionsDonationNeeds, setOptionsDonationNeeds] = useState<string[]>(
+    [],
+  );
   const [password, setPassword] = useState<string>("");
   const navigate = useNavigate();
   const { user, setUser } = useUserContext() as IUserContext;
 
+  async function getActingAreas() {
+    try {
+      const areas = await getAllActingAreas();
+
+      setOptionsActingArea(areas.map((area) => area.name));
+    } catch (error) {
+      alert(error);
+    }
+  }
+
+  async function getCities() {
+    try {
+      const cities = await getAllCities();
+
+      setOptionsCity(cities.map((city) => city.name));
+    } catch (error) {
+      alert(error);
+    }
+  }
+
+  async function getStates() {
+    try {
+      const states = await getAllStates();
+
+      setOptionsState(states.map((state) => state.name));
+    } catch (error) {
+      alert(error);
+    }
+  }
+
+  async function getDonationNeeds() {
+    try {
+      const donationNeeds = await getAllDonationNeeds();
+
+      setOptionsDonationNeeds(
+        donationNeeds.map((donationNeed) => donationNeed.name),
+      );
+    } catch (error) {
+      alert(error);
+    }
+  }
+
   useEffect(() => {
     if (user) navigate("/");
+    getActingAreas();
+    getCities();
+    getStates();
+    getDonationNeeds();
   }, [user]);
+
+  function resetAllStates() {
+    setName("");
+    setEmail("");
+    setPassword("");
+    setActingArea("");
+    setDescription("");
+    setStreet("");
+    setNeighborhood("");
+    setNumber("");
+    setComplement("");
+    setZipCode("");
+    setCity("");
+    setState("");
+  }
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
-    const body: ISignUpUser = {
+    const address = {
+      street,
+      neighborhood,
+      number,
+      complement,
+      zipCode,
+      city,
+      state,
+    };
+
+    const body: ISignUpOng = {
       name,
       email,
       password,
+      actingArea,
+      description,
+      address,
     };
-
+    console.log(body);
     try {
-      await signUpUserOrFail(body);
+      await signUpOngOrFail(body);
 
       const userData = await signInUserOrFail({ email, password });
 
-      setName("");
-      setEmail("");
-      setPassword("");
+      resetAllStates();
       setUser(userData);
     } catch (error) {
       alert(error);
+    }
+  }
+
+  function handleCheckboxChange(
+    e: ChangeEvent<HTMLInputElement>,
+    donation: string,
+  ) {
+    if (e.target.checked) {
+      setDonationNeeds([...donationNeeds, donation]);
+    } else {
+      setDonationNeeds(donationNeeds.filter((el) => el !== donation));
     }
   }
 
@@ -85,8 +187,10 @@ export default function SignUpOngPage() {
         <Label label="Área de atuação" />
         <FormSelect
           placeholder="Selecione a área de atuação"
-          options={["Area 1", "Area 2"]}
+          options={optionsActingArea}
           required
+          state={actingArea}
+          setState={setActingArea}
         />
         <Label label="Descrição (Opcional)" />
         <FormInput
@@ -157,8 +261,10 @@ export default function SignUpOngPage() {
                 width="130px"
                 placeholder="Selecione a cidade"
                 marginBottom="0"
-                options={["Cidade 1", "Cidade 2"]}
+                options={optionsCity}
                 required
+                state={city}
+                setState={setCity}
               />
             </Box>
           </WrapItem>
@@ -169,8 +275,10 @@ export default function SignUpOngPage() {
                 width="130px"
                 placeholder="Selecione o estado"
                 marginBottom="0"
-                options={["Estado 1", "Estado 2"]}
+                options={optionsState}
                 required
+                state={state}
+                setState={setState}
               />
             </Box>
           </WrapItem>
@@ -196,15 +304,19 @@ export default function SignUpOngPage() {
 
         <Label label="Items em falta (Selecione quantos quiser)" />
         <Wrap spacing="10px" mb="19px" justify="space-between">
-          <Checkbox fontFamily="default" color="tertiary" size="14px">
-            Roupas
-          </Checkbox>
-          <Checkbox fontFamily="default" color="tertiary" size="14px">
-            Comida
-          </Checkbox>
-          <Checkbox fontFamily="default" color="tertiary" size="14px">
-            Produtos de Higiene
-          </Checkbox>
+          {optionsDonationNeeds.map((donation) => (
+            <Checkbox
+              key={Math.random()}
+              fontFamily="default"
+              color="tertiary"
+              size="14px"
+              value={donation}
+              onChange={(e) => handleCheckboxChange(e, donation)}
+              isChecked={donationNeeds.includes(donation)}
+            >
+              {donation}
+            </Checkbox>
+          ))}
         </Wrap>
 
         <Label label="Senha" />
