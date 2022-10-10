@@ -5,7 +5,8 @@ import Card from "../components/Card/Card";
 export default function OngsPage() {
   return (
     <Flex
-      h="100%"
+      h="auto"
+      minH="100%"
       direction="column"
       justify="flex-start"
       align="center"

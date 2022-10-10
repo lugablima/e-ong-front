@@ -6,6 +6,8 @@ import PhoneCard from "../components/Card/PhoneCard";
 export default function PhonesPage() {
   return (
     <Flex
+      h="auto"
+      minH="100%"
       direction="column"
       justify="flex-start"
       align="center"
